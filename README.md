@@ -1,7 +1,7 @@
 # Hyperskill Python Projects
 Projects from https://hyperskill.org, implementation by Albina Giliazova in Python.
 
-SimpleBankingSystem
+Simple Banking System
 
 A simple banking system with text interface that can:
 create a card with a number according to Luhn algorithm and a random pin-code,
