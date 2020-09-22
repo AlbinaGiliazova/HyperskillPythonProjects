@@ -1,5 +1,5 @@
-# Hyperskill Projects
-Projects from https://hyperskill.org, implementation by Albina Giliazova.
+# Hyperskill Python Projects
+Projects from https://hyperskill.org, implementation by Albina Giliazova in Python.
 
 SimpleBankingSystem
 
