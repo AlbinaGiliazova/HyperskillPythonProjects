@@ -1,5 +1,5 @@
 # HyperskillSimpleBankingSystem
-A project from https://hyperskill.org, my implementation
+A project from https://hyperskill.org, implementation by Albina Giliazova.
 
 A simple banking system with text interface that can:
 create a card with a number according to Luhn algorithm and a random pin-code,
