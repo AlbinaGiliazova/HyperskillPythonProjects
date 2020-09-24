@@ -9,9 +9,9 @@ A simple regex engine that supports these metacharacters:
 $ matches only the end of the string,
 \\ is the escape sequence,
 ? means that preceding char is repeated zero or one times,
-* means that preceding char is repeated zero or more times,
-+ means that preceding char is repeated one or more times. 
-Note: In Spider IDE the input string "\" doesn't need to be escaped like "\\".
+\* means that preceding char is repeated zero or more times,
+\+ means that preceding char is repeated one or more times. 
+Note: In Spider IDE the input string "\\" doesn't need to be escaped like "\\\\".
 
 **Simple Banking System**
 
