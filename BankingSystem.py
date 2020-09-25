@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Sep 22 18:46:24 2020
-
 A banking system with text interface that can: 
 create a card with a number according to Luhn algorithm and a random pin-code, 
 log into account of the card to add money, 
