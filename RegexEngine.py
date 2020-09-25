@@ -2,8 +2,7 @@
 """
 Created on Fri Sep 25 01:54:52 2020
 
-Regex engine project for hyperskill.org
-Supports .$\?*+^
+A regex engine that supports these metacharacters:
 . matches any single char
 $ matches only in the end of the string
 \\ is the escape sequence
