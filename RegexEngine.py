@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Sep 25 01:54:52 2020
+Created on Fri Sep 25 
 
 A regex engine that supports these metacharacters:
 . matches any single char
