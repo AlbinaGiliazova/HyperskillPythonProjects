@@ -28,5 +28,6 @@ Note: In Spider IDE the input string "\\" doesn't need to be escaped like "\\\\"
 A To-Do list that supports: 
 adding and deleting tasks with deadlines, 
 listing today's tasks, week's tasks, missed tasks and all tasks.
+Tasks are stored in SQLite database and SQLAlchemy is used.
 
 
