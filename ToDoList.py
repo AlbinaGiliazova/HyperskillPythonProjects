@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Sep 25 20:41:55 2020
-
 A To-Do list that supports: 
 adding and deleting tasks with deadlines, 
 listing today's tasks, week's tasks, missed tasks and all tasks. 
