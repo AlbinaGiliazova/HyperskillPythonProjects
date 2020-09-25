@@ -2,7 +2,10 @@
 """
 Created on Fri Sep 25 20:41:55 2020
 
-To-do list
+A To-Do list that supports: 
+adding and deleting tasks with deadlines, 
+listing today's tasks, week's tasks, missed tasks and all tasks. 
+Tasks are stored in SQLite database and SQLAlchemy is used.
 
 @author: Giliazova
 """
