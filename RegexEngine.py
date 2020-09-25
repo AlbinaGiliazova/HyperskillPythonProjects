@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Sep 25 01:54:52 2020
+
 Regex engine project for hyperskill.org
 Supports .$\?*+^
 . matches any single char
@@ -11,6 +12,8 @@ $ matches only in the end of the string
 + means that preceding char is repeated one or more times 
 ^ matches only in the beginning of the string 
 In Spider IDE the input string "\" doesn't need to be escaped like "\\".
+A project for https://hyperskill.org
+
 @author: Giliazova
 """
 import sys
