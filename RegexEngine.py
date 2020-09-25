@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Sep 25 
-
 A regex engine that supports these metacharacters:
 . matches any single char
 $ matches only in the end of the string
