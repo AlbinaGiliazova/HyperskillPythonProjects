@@ -11,6 +11,29 @@ transfer money to another card,
 close account.
 Cards are stored in SQLite3 database.
 
+**Loan Calculator**
+
+A loan calculator that supports these command line arguments:
+    
+--interest is an obligatory argument, no "%" needed    
+    
+--type = annuity or diff  
+
+Differentiate payment is where the loan principal is reduced by a constant 
+amount each month. The rest of the monthly payment goes toward interest 
+repayment and it is gradually reduced over the term of the loan. 
+Only monthly payments are calculated for --type=diff.
+
+Annuity payment is fixed during the whole loan term.
+
+--principal
+
+--payment
+
+--periods
+
+It takes two arguments and calculates the third for --type=annuity.
+
 **Regex Engine**
 
 A regex engine that supports these metacharacters:
