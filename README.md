@@ -47,6 +47,7 @@ $ matches only the end of the string,
 Note: In Spider IDE the input string "\\" doesn't need to be escaped like "\\\\".
 
 **Rock, Paper, Scissors**
+
 Rock, paper, scissors is a well-known hand game. Each one of two players 
 simultaneously forms one of three shapes with their hands, and then, 
 depending on the chosen shapes, the winner is determined: rock beats scissors, 
