@@ -55,7 +55,7 @@ paper wins over rock, scissors beat paper.
 The game is widely used to make a fair decision between equal options.
 This game supports custom number of playable options to choose from.
 The player can enter them like this: 
-rock,gun,lightning,devil,dragon,water,air,paper,sponge,wolf,tree,human,snake,scissors,fire
+rock,gun,lightning,devil,dragon,water,air,paper,sponge,wolf,tree,human,snake,scissors,fire. 
 Print !rating to see the rating (100 for win, 50 for draw, 0 for lose).
 Print !exit to exit the game.
 The rating is written to a file rating.txt
