@@ -11,6 +11,11 @@ transfer money to another card,
 close account.
 Cards are stored in SQLite3 database.
 
+**Chat bot**
+
+A simple chat bot that asks name, guesses age, counts to a specified number and
+asks a question about programming.
+
 **Loan Calculator**
 
 A loan calculator that supports these command line arguments:
