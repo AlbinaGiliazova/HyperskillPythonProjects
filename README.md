@@ -46,6 +46,19 @@ $ matches only the end of the string,
 \+ means that preceding char is repeated one or more times. 
 Note: In Spider IDE the input string "\\" doesn't need to be escaped like "\\\\".
 
+**Rock, Paper, Scissors**
+Rock, paper, scissors is a well-known hand game. Each one of two players 
+simultaneously forms one of three shapes with their hands, and then, 
+depending on the chosen shapes, the winner is determined: rock beats scissors, 
+paper wins over rock, scissors beat paper.
+The game is widely used to make a fair decision between equal options.
+This game supports custom number of playable options to choose from.
+The player can enter them like this: 
+rock,gun,lightning,devil,dragon,water,air,paper,sponge,wolf,tree,human,snake,scissors,fire
+Print !rating to see the rating (100 for win, 50 for draw, 0 for lose).
+Print !exit to exit the game.
+The rating is written to a file rating.txt
+
 **To-Do List**
 
 A To-Do list that supports: 
