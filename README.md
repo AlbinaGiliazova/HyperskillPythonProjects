@@ -65,6 +65,13 @@ Print !rating to see the rating (100 for win, 50 for draw, 0 for lose).
 Print !exit to exit the game.
 The rating is written to a file rating.txt
 
+**Tic-Tac-Toe**
+
+Tic-tac-toe is a game played by two players on a 3x3 field where the duel takes place.
+ One of the players plays as 'X', and the other player is 'O'. 'X' plays first, 
+ then the 'O' side plays, and so on. The first player that writes 3 'X' or 3 'O' 
+ in a straight line (including diagonals) wins.
+
 **To-Do List**
 
 A To-Do list that supports: 
