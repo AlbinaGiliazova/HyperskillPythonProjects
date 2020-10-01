@@ -16,6 +16,12 @@ Cards are stored in SQLite3 database.
 A simple chat bot that asks name, guesses age, counts to a specified number and
 asks a question about programming.
 
+**Coffee Machine**
+
+Simulator of a coffee machine. It can run out of ingredients, such as milk or 
+coffee beans, it can offer you various types of coffee, and, finally, it will 
+take money for the prepared drink.
+
 **Hangman**
 
 Hangman is a popular yet grim intellectual game. A cruel computer hides a word 
