@@ -51,6 +51,12 @@ Annuity payment is fixed during the whole loan term.
 
 It takes two arguments and calculates the third for --type=annuity.
 
+**Numeric Matrix Processor**
+
+A numeric processor which can add matrices, multiply a matrix by a constant or
+by another matrix, transpose a matrix in four different ways, calculate
+a determinant and inverse a matrix.
+
 **Regex Engine**
 
 A regex engine that supports these metacharacters:
