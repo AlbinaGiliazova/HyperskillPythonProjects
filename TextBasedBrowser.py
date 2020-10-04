@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 A text-based browser that can show the text from the requested URLs, parsed 
-for particular HTML tags; colour the links in blue; return back to the 
+for the particular HTML tags; colour the links in blue; return back to the 
 previous tabs; save the tabs in a directory and show the cached tabs. The 
 commands are: "back", "exit", an Internet address with or without "https://".
 
