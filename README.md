@@ -83,6 +83,13 @@ Print !rating to see the rating (100 for win, 50 for draw, 0 for lose).
 Print !exit to exit the game.
 The rating is written to a file rating.txt
 
+**Text Based Browser**
+
+A text-based browser that can show the text from the requested URLs, parsed 
+for particular HTML tags; colour the links in blue; return back to the 
+previous tabs; save the tabs in a directory and show the cached tabs. The 
+commands are: "back", "exit", an Internet address with or without "https://".
+
 **Tic-Tac-Toe**
 
 Tic-tac-toe is a game played by two players on a 3x3 field where the duel takes place.
