@@ -1,0 +1,26 @@
+{% extends "news\\base.html" %}
+{% block content %}
+
+<h2>Hyper news</h2>
+{% for date, values in dates.items %}
+<h4>{{ date }}</h4>
+<ul>
+{% for item in values %}
+    <li><a href="/news/{{ item.link }}/">{{ item.title }}</a></li>
+{% endfor %}
+</ul>
+{% endfor %}
+
+<br>
+    <form class="search" method="get">{% csrf_token %}
+        <input  type="text" name="q" size = 40>
+        <br>
+        <br>
+        <button type="submit">Search</button>
+    </form>
+<br>
+<a href="/news/create/" target="_blank">Create news</a>
+<br>
+
+{{ block.super }}
+{% endblock %}
