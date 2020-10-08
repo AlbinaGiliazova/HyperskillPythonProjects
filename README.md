@@ -32,6 +32,7 @@ if you win, you'll survive.
 
 A website made with Django 2.2, HTML, CSS, JSON which can show to a user the news
 grouped by the date with clickable links to each news; the user can add news and search.
+The Django files that were not modified are not included here.
 
 **Loan Calculator**
 
