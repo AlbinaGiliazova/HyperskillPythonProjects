@@ -1,0 +1,15 @@
+{% extends "news\\base.html" %}
+{% block content %}
+    <h2>Create news</h2>
+    <form class="create" method="post">{% csrf_token %}
+        <p>Title:</p>
+        <input type="text" name="title" size = 80>
+        <p>Text:</p>
+        <textarea type="text" name="text" cols="80" rows="5"></textarea>
+        <br>
+        <br>
+        <button type="submit">Add news</button>
+    </form>
+    <a href="/news/" target="_blank">Back to news</a>
+{{ block.super }}
+{% endblock %}
