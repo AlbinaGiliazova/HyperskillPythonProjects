@@ -31,7 +31,7 @@ if you win, you'll survive.
 **HyperNews**
 
 A website made with Django 2.2, HTML, CSS, JSON which can show to a user the news
-grouped by date with clickable links to each news; the user can add news and search.
+grouped by the date with clickable links to each news; the user can add news and search.
 
 **Loan Calculator**
 
