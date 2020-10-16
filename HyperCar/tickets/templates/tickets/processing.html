@@ -1,0 +1,11 @@
+{% extends "tickets\\base.html" %}
+{% block content %}
+<div>Change oil queue: {{ change_oil_queue }}</div>
+<div>Inflate tires queue: {{ inflate_tires_queue }}</div>
+<div>Get diagnostic queue: {{ diagnostic_queue }}</div>
+<br/>
+<form method="post">{% csrf_token %}
+  <button type="submit">Process next</button>
+</form>
+{{ block.super }}
+{% endblock %}
