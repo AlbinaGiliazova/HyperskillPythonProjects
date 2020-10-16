@@ -28,6 +28,13 @@ Hangman is a popular yet grim intellectual game. A cruel computer hides a word
 from you. Letter by letter you try to guess it. If you fail, you'll be hanged, 
 if you win, you'll survive.
 
+**HyperCar**
+
+A website made with Django 2.2, HTML for processing a car service queue. Users 
+can get tickets for three types of service. Workers can process these tickets.
+The next ticket is shown according to priority rules. The Django files that were
+not modified are not included here.
+
 **HyperNews**
 
 A website made with Django 2.2, HTML, CSS, JSON which can show to a user the news
