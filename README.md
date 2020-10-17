@@ -35,6 +35,12 @@ can get tickets for three types of service. Workers can process these tickets.
 The next ticket is shown according to priority rules. The Django files that were
 not modified are not included here.
 
+**HyperJob**
+
+A website made with Django 2.2, SQLite database, Django ORM, HTML, CSS for providing
+a service to add and show resumes and vacancies. Only authenticated users can add texts
+with privileges if staff or not. The Django files that were not modified are not included here.
+
 **HyperNews**
 
 A website made with Django 2.2, HTML, CSS, JSON which can show to a user the news
