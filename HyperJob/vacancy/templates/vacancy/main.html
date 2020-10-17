@@ -1,0 +1,13 @@
+{% extends 'vacancy\\base.html' %}
+{% block content %}
+
+<h2>Vacancies</h2>
+<br/>
+{% for vacancy in vacancies %}
+<div>{{ vacancy.author.username }}: {{ vacancy.description }}</div>
+<br/>
+<br/>
+{% endfor %}
+
+{{ block.super }}
+{% endblock %}
