@@ -22,7 +22,6 @@ class NewView(View):
             return HttpResponseForbidden()
         if request.user.is_staff:
             return HttpResponseForbidden()
-        # return HttpResponseForbidden('<h1>403 Forbidden</h1>', content_type='text/html')
         description = request.POST.get("description")
         author = request.user
         Resume.objects.create(description=description,
