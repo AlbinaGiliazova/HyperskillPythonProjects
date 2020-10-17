@@ -1,0 +1,13 @@
+{% extends 'mainmenu\\base.html' %}
+{% block content %}
+
+<h2>Welcome to HyperJob!</h2>
+<br/>
+<div class='center'><a href='/login'>To login</a></div>
+<div class='center'><a href='/signup'>To sign up</a></div>
+<div class='center'><a href='/vacancies'>To vacancies</a></div>
+<div class='center'><a href='/resumes'>To resumes</a></div>
+<div class='center'><a href='/home'>To personal profile</a></div>
+
+{{ block.super }}
+{% endblock %}
