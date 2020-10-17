@@ -1,0 +1,16 @@
+{% extends 'mainmenu\\base.html' %}
+{% block content %}
+
+<form method="post" action="/resume/new">{% csrf_token %}
+  <textarea type="text" name="description" cols="80" rows="5"></textarea>
+  <button type="submit">Submit resume</button>
+</form>
+
+<form method="post" action="/vacancy/new">{% csrf_token %}
+  <p>{{ vacancy_form.as_p }}</p>
+  <!--<table>{{ form.as_table }}</table>-->
+  <button type="submit">Submit vacancy</button>
+</form>
+
+{{ block.super }}
+{% endblock %}
