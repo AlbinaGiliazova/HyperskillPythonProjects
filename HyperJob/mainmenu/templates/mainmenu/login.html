@@ -1,0 +1,10 @@
+{% extends 'mainmenu\\base.html' %}
+{% block content %}
+
+<form method="post" action="login">{% csrf_token %}
+  <table>{{ form.as_table }}</table>
+  <button type="submit">Login</button>
+</form>
+
+{{ block.super }}
+{% endblock %}
