@@ -70,6 +70,13 @@ Annuity payment is fixed during the whole loan term.
 
 It takes two arguments and calculates the third for --type=annuity.
 
+**Multilingual Online Translator**
+
+This program translates the given word from one given language to 
+another given language or to all supported. The program supports 13 languages and 
+uses parsing of the website Reverso. It uses requests, BeautifulSoup and supports
+command line arguments, for example: translator.py english all hello
+
 **Numeric Matrix Processor**
 
 A numeric processor which can add matrices, multiply a matrix by a constant or
