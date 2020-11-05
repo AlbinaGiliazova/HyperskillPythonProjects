@@ -109,6 +109,10 @@ Print !rating to see the rating (100 for win, 50 for draw, 0 for lose).
 Print !exit to exit the game.
 The rating is written to a file rating.txt
 
+**Smart Calculator **
+
+A calculator for the expressions. Commands: /help, /exit. Supports: +-*^()=/. 
+
 **Text Based Browser**
 
 A text-based browser that can show the text from the requested URLs, parsed 
