@@ -16,7 +16,10 @@ def assignment(s, variables):
             error = True
             return '', error
     if len(s) > 3:
-        last, error = calc(s[2:], variables)
+        last, error = postfix(s[2:])
+        if error:
+            return '', error       
+        last, error = calc(last, variables)
         if error:
             return '', error
     else:
