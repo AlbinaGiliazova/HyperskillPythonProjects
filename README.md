@@ -83,6 +83,12 @@ A numeric processor which can add matrices, multiply a matrix by a constant or
 by another matrix, transpose a matrix in four different ways, calculate
 a determinant and inverse a matrix.
 
+**Password Hacker**
+
+A login and password hacking program with algorithms for simple brute-force, 
+dictionary-based brute-force, brute-force using vulnerable with exception and
+brute-force using vulnerability with time.
+
 **Regex Engine**
 
 A regex engine that supports these metacharacters:
