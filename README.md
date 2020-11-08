@@ -86,7 +86,7 @@ a determinant and inverse a matrix.
 **Password Hacker**
 
 A login and password hacking program with algorithms for simple brute-force, 
-dictionary-based brute-force, brute-force using vulnerable with exception and
+dictionary-based brute-force, brute-force using vulnerability with exception and
 brute-force using vulnerability with time.
 
 **Regex Engine**
